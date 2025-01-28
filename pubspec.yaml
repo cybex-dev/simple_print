@@ -1,6 +1,6 @@
 name: simple_print
 description: "Takes print() to the next level with custom print functions."
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://github.com/cybex-dev/simple_print
 platforms:
   android:
