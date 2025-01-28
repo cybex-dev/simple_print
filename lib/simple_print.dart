@@ -4,13 +4,7 @@ enum LogLevel { info, debug, warning, error }
 
 /// LoggerConfig class to store logging configuration.
 class _LoggerConfig {
-  static String? _appName;
-
-  static String? get appName => _appName;
-
-  static set appName(String? value) {
-    _appName = value;
-  }
+  static String? appName;
 }
 
 /// Set the app name to be used in the logs.
